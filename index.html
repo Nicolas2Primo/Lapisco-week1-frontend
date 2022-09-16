@@ -9,26 +9,43 @@
   </head>
   <body>
     <div
-      class="bg-[#F2EBE3] h-screen w-screen flex items-center justify-center"
+      class="bg-[#F2EBE3] h-screen w-screen flex items-center justify-center px-4 py-7 xs:px-0 xs:py-0"
     >
       <div
-        class="bg-white flex max-w-screen-sm screen rounded-lg overflow-hidden"
+        class="bg-white xs:w-[490px] xs:h-[355px] w-[344px] flex rounded-lg overflow-hidden flex-col xs:grid xs:grid-cols-2 xs:grid-rows-1"
       >
-        <div class="flex-1">
-          <img src="/public/images/image-product-desktop.jpg" alt="perfume" />
+        <div class="overflow-hidden xs:flex-1 h-[220px] xs:h-full">
+          <img
+            class="object-cover h-[394px] w-[394px]"
+            src="/public/images/image-product-desktop.jpg"
+            alt="perfume"
+          />
         </div>
-        <div class="flex-1">
-          <span>PERFUME</span>
-          <h1>Gabrielle Essence Eau De Parfum</h1>
-          <p>
+        <div class="flex-1 p-6 gap-2.5 flex flex-col">
+          <span class="text-[10px] text-gray-500 font-montserrat"
+            >P E R F U M E</span
+          >
+          <h1 class="text-[26px] leading-[25px] font-fraunces">
+            Gabrielle Essence Eau De Parfum
+          </h1>
+          <p class="font-montserrat text-[14px] text-gray-600">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
           </p>
-          <div>
-            <span></span>
-            <span></span>
+          <div class="flex items-center gap-6">
+            <span class="text-3xl font-fraunces text-[#3C8067]">$149.99</span>
+            <span
+              class="font-montserrat text-[12px] line-through text-gray-500"
+            >
+              $169.99</span
+            >
           </div>
-          <div>Add to Cart</div>
+
+          <div
+            class="bg-[#3C8067] items-center justify-center flex rounded-xl py-2"
+          >
+            <span class="text-white font-montserrat">Add to Cart</span>
+          </div>
         </div>
       </div>
     </div>

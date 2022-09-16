@@ -1,0 +1,22 @@
+{
+  "name": "lapisco-week1-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicolas2Primo/Lapisco-week1-frontend.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nicolas2Primo/Lapisco-week1-frontend/issues"
+  },
+  "homepage": "https://github.com/Nicolas2Primo/Lapisco-week1-frontend#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
